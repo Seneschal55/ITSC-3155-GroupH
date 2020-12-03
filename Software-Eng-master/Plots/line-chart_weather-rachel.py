@@ -10,4 +10,4 @@ data = [go.Scatter(x=df['date'], y=df['actual_max_temp'], mode='lines', name='Ma
 layout = go.Layout(title='Weather from 2014 to 2015 Actual Max Temp', xaxis_title="Date", yaxis_title="Actual Max Temp")
 # Plot the figure and saving in a html file
 fig = go.Figure(data=data, layout=layout)
-pyo.plot(fig, filename='linechart.html')
+pyo.plot(fig, filename='linechart_weather-rachel.html')
